@@ -1,0 +1,12 @@
+org.apache.pdfbox.debugger
+org.apache.pdfbox.debugger.colorpane
+org.apache.pdfbox.debugger.flagbitspane
+org.apache.pdfbox.debugger.fontencodingpane
+org.apache.pdfbox.debugger.hexviewer
+org.apache.pdfbox.debugger.pagepane
+org.apache.pdfbox.debugger.streampane
+org.apache.pdfbox.debugger.streampane.tooltip
+org.apache.pdfbox.debugger.stringpane
+org.apache.pdfbox.debugger.treestatus
+org.apache.pdfbox.debugger.ui
+org.apache.pdfbox.debugger.ui.textsearcher
