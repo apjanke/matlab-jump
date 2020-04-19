@@ -1,7 +1,7 @@
 function [out,fullResults] = listJarExtInfo
 %LISTJAREXTINFO Get info about the "external" JARs included with Matlab
 %
-% [out,fullResults] = jl.mlintrospect.listJarExtInfo
+% [out,fullResults] = mjump.listJarExtInfo
 %
 % Lists info about all the external (third-party) Java library JARs bundled
 % with this distribution of Matlab. This can be used to assess
@@ -11,10 +11,11 @@ function [out,fullResults] = listJarExtInfo
 % information about each JAR file it found.
 %
 % The info is returned as a table with at least the following variables:
-%   * File    - the path of the JAR file, relative to the jarext directory
 %   * Title   - the title of the library
 %   * Vendor  - the name of the vendor
 %   * Version - the version of the library
+%   * File    - the path of the JAR file, relative to the jarext directory
+%   * Sha1    - the SHA1 digest of the file, in hex format
 % The values for any of the columns except File may be blank. All variables
 % will be char/cellstr. The fullResults output is a table with even more
 % columns, such as:
@@ -22,16 +23,17 @@ function [out,fullResults] = listJarExtInfo
 %   * SpecVer - the specification version
 %   * BundleName  - the bundle name
 % 
-% Returns a table.
+% Returns a table. The additional output fullResults returns a table with even
+% more columns, but the format of that table is not stable or documented.
 %
 % Examples:
 % 
-% jarInfo = listJarExtInfo;
+% jarInfo = mjump.listJarExtInfo;
 % fprintf('Found %d JAR libs\n', size(jarInfo,1));
 % % Then open your Workspace view and double-click the jarInfo variable to view
 % % it as a table
 
-mavenClient = jarext_inspector.MavenCentralRepoClient;
+mavenClient = mjump.MavenCentralRepoClient;
 
 jarextDir = [matlabroot '/java/jarext'];
 
@@ -153,7 +155,7 @@ fullResults = tableFromVectors(File, Title, Version, Vendor, ...
     ImplTitle, ImplVer, ImplVendor, SpecTitle, SpecVer, SpecVendor, Sha1, ...
     MavenGroup, MavenArtifact, MavenVersion, MavenRelDate, MavenLatestVer, MavenLatestDate, ...
     MavenRecentestVer, MavenRecentestDate);
-out = fullResults(:,{'Title','Vendor','Version','File','MavenGroup','MavenArtifact', ...
+out = fullResults(:,{'Title','Vendor','Version','File','Sha1','MavenGroup','MavenArtifact', ...
     'MavenVersion','MavenRelDate', ...
     'MavenRecentestVer', 'MavenRecentestDate'});
 
