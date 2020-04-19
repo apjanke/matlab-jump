@@ -14,12 +14,12 @@ classdef JarExtInspector
       '3789d9fada2d3d458c4ba2de349d48780f381ee3', 'Apache Xerces-J', 'Apache', '2.12.0', 'xml-apis.jar'
       '3a206b25679f598a03374afd4e0410d8849b088b', 'Apache Xerces-J', 'Apache', '2.12.0', 'xercesImpl.jar'
       '3789d9fada2d3d458c4ba2de349d48780f381ee3', 'Apache Xerces-J', 'Apache', '2.12.0', 'xml-apis.jar'
-      '44a3519bf9c56a54b44bffb8a781a77e37ed0396', 'JSch',            'JCraft', '0.1.50', 'jsch.jar'
-      '21761cb18a9d6e22712d1429a50f255833cd7177', 'JSch',            'JCraft', '0.1.51', 'jsch.jar'
-      'b2c608943b8b46078144d261fa4ff7d9e77c2eae', 'JSch',            'JCraft', '0.1.52', 'jsch.jar'
-      '28b183f2db44de2ca82f324ea996593dc6931b12', 'JSch',            'JCraft', '0.1.53', 'jsch.jar'
-      '0d7d8aba0d11e8cd2f775f47cd3a6cfbf2837da4', 'JSch',            'JCraft', '0.1.54', 'jsch.jar'
-      'ca851f1bacdd98c4fb3656ac9e3bc3131629c229', 'JSch',            'JCraft', '0.1.55', 'jsch.jar'
+      '44a3519bf9c56a54b44bffb8a781a77e37ed0396', 'JSch',            'JCraft', '0.1.50', 'jsch-0.1.50.jar'
+      '21761cb18a9d6e22712d1429a50f255833cd7177', 'JSch',            'JCraft', '0.1.51', 'jsch-0.1.51.jar'
+      'b2c608943b8b46078144d261fa4ff7d9e77c2eae', 'JSch',            'JCraft', '0.1.52', 'jsch-0.1.52.jar'
+      '28b183f2db44de2ca82f324ea996593dc6931b12', 'JSch',            'JCraft', '0.1.53', 'jsch-0.1.53.jar'
+      '0d7d8aba0d11e8cd2f775f47cd3a6cfbf2837da4', 'JSch',            'JCraft', '0.1.54', 'jsch-0.1.54.jar'
+      'ca851f1bacdd98c4fb3656ac9e3bc3131629c229', 'JSch',            'JCraft', '0.1.55', 'jsch-0.1.55.jar'
       }, 'VariableNames', {'Sha1', 'Title', 'Vendor', 'Version', 'File'});
   end
   
