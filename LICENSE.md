@@ -11,6 +11,7 @@ JUMP itself is licensed under the BSD 3-Clause License, the full text of which c
 | Various Apache Libraries | Apache License 2.0 | |
 | ANTLR | BSD 3-Clause | |
 | DOM4J | Custom? | |
+| Glazed Lists | LGPL / MPL | Dual-licensed |
 | GSON | Apache License 2.0 | |
 | Guava | Apache License 2.0 | |
 | Guice | Apache License 2.0 | |
