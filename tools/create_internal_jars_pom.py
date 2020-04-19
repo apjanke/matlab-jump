@@ -116,7 +116,7 @@ for root, subdirs, files in os.walk(matlab_jar_dir):
     artifact = qual + "." + jar_base if qual else jar_base
     f.write('    <dependency>\n')
     f.write('      <groupId>net.janklab.jump.matlab-internal-jars</groupId>\n')
-    f.write('      <artifactId>%s-%s</artifactId>\n' % (artifact, matlab_release))
+    f.write('      <artifactId>%s\n' % (artifact))
     f.write('      <version>%s</version>\n' % (matlab_version))
     f.write('      <scope>system</scope>\n')
     f.write('      <systemPath>%s</systemPath>\n' % (file_path))
