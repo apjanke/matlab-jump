@@ -34,6 +34,8 @@ JUMP itself is licensed under the BSD 3-Clause License, the full text of which c
 | WSDL4J | Custom? | |
 | WoodStox | Apache License 2.0 | |
 
+Note: This licensing info is based on the versions of the libraries included with Matlab R2019b. It's possible the licensing situation could change in the future if Matlab ships newer versions of the libraries whose licensing terms have changed.
+
 ## Text of Licenses
 
 ### JUMP License
