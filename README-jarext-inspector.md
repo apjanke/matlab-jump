@@ -9,7 +9,8 @@ This program inspects Matlab to determine which Java libraries it includes, extr
 ## Usage
 
 ```matlab
-  jarInfo = listJarExtInfo;
+  inspector = mjump.JarExtInspector;
+  jarInfo = inspector.listJarExtInfo;
   fprintf('Found %d JAR libs\n', size(jarInfo,1));
 ```
 
@@ -24,6 +25,7 @@ The output table contains at least the following columns:
 | Column  | Contents  |
 | ------------- | ------------- |
 | File    | The path to the JAR file, relative to the Matlab `jarext` directory |
+| Sha1    | The SHA-1 checksum of the file |
 | Title   | The title of the library |
 | Vendor  | The name of the vendor, as extracted from the JAR metadata |
 | Version | The version of the library |
@@ -34,7 +36,7 @@ The output table contains at least the following columns:
 | MavenRecentestVer | The most recent version of the same group/artifact on Maven |
 | MavenRecentestDate | The release date of the most recent version of this group/artifact on Maven |
 
-See the `listJarExtInfo` helptext and source for more details.
+See the `mjump.JarExtInspector.listJarExtInfo` helptext and source for more details.
 
 ## Issues
 
