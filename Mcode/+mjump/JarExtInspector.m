@@ -24,6 +24,29 @@ classdef JarExtInspector
   end
   
   methods
+    function recordJarExtInfo(this)
+      %RECORDJAREXTINFO Detect JARs and save results in the repo
+      %
+      % This method is just for Matlab-JUMP developers to use, for updating the
+      % JAR info database in the repo.
+      matlabRelease = ['R' version('-release')];
+      thisDir = fileparts(mfilename('fullpath'));
+      repoDir = fileparts(fileparts(thisDir));
+      dataDir = fullfile(repoDir, 'data', 'jarext-versions');
+      outFileMat = fullfile(dataDir, sprintf('jarexts-%s.mat', matlabRelease));
+      outFileXls = fullfile(dataDir, sprintf('jarexts-%s.xlsx', matlabRelease));
+      
+      jarInfo = this.listJarExtInfo;
+      save(outFileMat, 'jarInfo');
+      try
+        writetable(jarInfo, outFileXls);
+      catch err
+        fprintf('Warning: writing XLS file failed: %s\n', err.message);
+        fprintf('Warning: ignoring XLS write failure.\n');
+      end
+      fprintf('Wrote results to:\n  %s\n  %s\n', outFileMat, outFileXls);
+    end
+    
     function [out,fullResults] = listJarExtInfo(this) %#ok<MANU>
       %LISTJAREXTINFO Get info about the "external" JARs included with Matlab
       %
@@ -115,7 +138,7 @@ classdef JarExtInspector
         SpecVendor{iJar} = getAttrib(attr, 'specification-vendor');
         
         % Check our known SHAs
-        refShas = obj.knownShas;
+        refShas = this.knownShas;
         [tf,loc] = ismember(Sha1{iJar}, refShas.Sha1);
         if tf
           refInfo = table2struct(refShas(loc,:));
