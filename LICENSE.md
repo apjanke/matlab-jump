@@ -14,6 +14,7 @@ JUMP itself is licensed under the BSD 3-Clause License, the full text of which c
 | GSON | Apache License 2.0 | |
 | Guava | Apache License 2.0 | |
 | Guice | Apache License 2.0 | |
+| Jackson | Apache License 2.0 | |
 | Java Sequence Library | ??? | |
 | JavaBeans Activation Framework | CDDL | |
 | JavaEWAH | Apache License 2.0 | |

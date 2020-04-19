@@ -5,6 +5,7 @@
   <groupId>net.janklab.jump</groupId>
   <artifactId>jump-R2019b</artifactId>
   <version>0.1.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
 
   <!-- 
       This POM contains Java libraries matching Matlab R2019b. Earlier versions
@@ -19,10 +20,6 @@
       <artifactId>aopalliance</artifactId>
       <version>1.0</version>
     </dependency>
-    <!-- For some reason, the Jackson JARs aren't downloading from Maven Central,
-         even though I can see the artifact definitions there on mvnrepository.com. 
-         Disable them for now. -->
-    <!--
     <dependency>
       <groupId>com.fasterxml.jackson.core</groupId>
       <artifactId>jackson-annotations</artifactId>
@@ -39,21 +36,20 @@
       <version>2.9.8</version>
     </dependency>
     <dependency>
-      <groupId>com.fasterxml.jackson.core</groupId>
+      <groupId>com.fasterxml.jackson.jaxrs</groupId>
       <artifactId>jackson-jaxrs-base</artifactId>
       <version>2.9.8</version>
     </dependency>
     <dependency>
-      <groupId>com.fasterxml.jackson.core</groupId>
+      <groupId>com.fasterxml.jackson.jaxrs</groupId>
       <artifactId>jackson-jaxrs-json-provider</artifactId>
       <version>2.9.8</version>
     </dependency>
     <dependency>
-      <groupId>com.fasterxml.jackson.core</groupId>
+      <groupId>com.fasterxml.jackson.module</groupId>
       <artifactId>jackson-module-jaxb-annotations</artifactId>
       <version>2.9.8</version>
     </dependency>
-    -->
     <dependency>
       <groupId>com.google.code.gson</groupId>
       <artifactId>gson</artifactId>
