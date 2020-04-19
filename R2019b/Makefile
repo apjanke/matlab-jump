@@ -1,5 +1,5 @@
 .PHONY: all
-all: download-lib download-sources download-javadoc combined-javadoc
+all: download-lib download-sources download-javadoc-jars javadocs
 
 .PHONY: download-lib
 download-lib:
