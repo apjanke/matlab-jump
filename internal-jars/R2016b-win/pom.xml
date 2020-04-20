@@ -1,0 +1,891 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>net.janklab.jump</groupId>
+  <artifactId>matlab-internal-jars-R2016b-win</artifactId>
+  <version>0.1.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <!--
+    This POM contains references to Matlab's internal Java libraries.
+  	DANGER! These are undocumented internal features! Using this stuff may
+  	well cause your code to break at any time!
+  -->
+
+  <name>Matlab-JUMP matlab-internal-jars: R2016b-win</name>
+  <description>Matlab internal JAR refs for Matlab R2016b on Windows</description>
+  <url>https://github.com/apjanke/matlab-jump</url>
+  <issueManagement>
+    <system>GitHub</system>
+    <url>https://github.com/apjanke/matlab-jump/issues</url>
+  </issueManagement>
+  <scm>
+    <url>https://github.com/apjanke/matlab-jump</url>
+  </scm>
+
+  <dependencies>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>activationclient
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/activationclient.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>addons
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/addons.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>addons_app
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/addons_app.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>addons_common
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/addons_common.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>addons_import
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/addons_import.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>addons_import_api
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/addons_import_api.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>addons_product
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/addons_product.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>addons_search_path_writer
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/addons_search_path_writer.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>addons_toolbox
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/addons_toolbox.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>addons_zip
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/addons_zip.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>addressbar_api
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/addressbar_api.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>appmanagement
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/appmanagement.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>beans
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/beans.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>common
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/common.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>comparisons
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/comparisons.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>ddux_api
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/ddux_api.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>deactivation
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/deactivation.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>deployment
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/deployment.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>desktop
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/desktop.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>engine
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/engine.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>fatalexit
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/fatalexit.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>filesystem_adapter
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/filesystem_adapter.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>find_files_api
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/find_files_api.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>foundation_libraries
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/foundation_libraries.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>hg
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/hg.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>html
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/html.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>hwsmanagement
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/hwsmanagement.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>ide
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/ide.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>install
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/install.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>installbundle
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/installbundle.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>installservicehandler
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/installservicehandler.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>installwizard
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/installwizard.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>instructionset
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/instructionset.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>instutil
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/instutil.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>instwiz
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/instwiz.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>jmi
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/jmi.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>license_agreement_dialog
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/license_agreement_dialog.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>lmlogin
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/lmlogin.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>login
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/login.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>matlab
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/matlab.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>matlabinstaller
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/matlabinstaller.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>matlab_login
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/matlab_login.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>mde
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/mde.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>mladdonpackaging
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/mladdonpackaging.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>mlservices
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/mlservices.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>mlwebservices
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/mlwebservices.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>mlwidgets
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/mlwidgets.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>mvm
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/mvm.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>mwswing
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/mwswing.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>mwt
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/mwt.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>net
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/net.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>page
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/page.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>product
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/product.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>publishparser
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/publishparser.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>resource_core
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/resource_core.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>services
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/services.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>sourcecontrol
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/sourcecontrol.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>supportsoftwareclient
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/supportsoftwareclient.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>supportsoftwareinstaller
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/supportsoftwareinstaller.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>timer
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/timer.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolboxmanagement
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/toolboxmanagement.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox_packaging
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/toolbox_packaging.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolstrip
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/toolstrip.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>trialsinstaller
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/trialsinstaller.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>util
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/util.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>vrd
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/vrd.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>webintegration
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/webintegration.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>webproxy
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/webproxy.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>widgets
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/widgets.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>wizard
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/wizard.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>xml
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/xml.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>cmlink.api
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/cmlink/api.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>cmlink.management
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/cmlink/management.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>cmlink.util
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/cmlink/util.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>cmlink.implementations.git
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/cmlink/implementations/git.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>cmlink.implementations.localcm
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/cmlink/implementations/localcm.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>cmlink.implementations.msscci
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/cmlink/implementations/msscci.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>cmlink.implementations.svncore
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/cmlink/implementations/svncore.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>cmlink.implementations.svnintegration
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/cmlink/implementations/svnintegration.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>cmlink.implementations.svnkitintegration
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/cmlink/implementations/svnkitintegration.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>help.helpui
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/help/helpui.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>org.netbeans
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/org/netbeans.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>org.openide
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/org/openide.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>project.api
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/project/api.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>project.impl
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/project/impl.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>resources.parallel_res
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/resources/parallel_res.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>storage.filesystemadapter
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/storage/filesystemadapter.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>storage.gds
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/storage/gds.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>storage.gdsinmatlab
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/storage/gdsinmatlab.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>storage.gdsmounter
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/storage/gdsmounter.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>storage.motw
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/storage/motw.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>storage.provider
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/storage/provider.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>system.editor
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/system/editor.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.apps
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/toolbox/apps.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.coder
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/toolbox/coder.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.compiler
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/toolbox/compiler.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.control
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/toolbox/control.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.dastudio
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/toolbox/dastudio.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.database
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/toolbox/database.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.distcomp
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/toolbox/distcomp.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.instrument
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/toolbox/instrument.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.optim
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/toolbox/optim.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.rptgencore
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/toolbox/rptgencore.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.slproject
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/toolbox/slproject.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.stats
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/toolbox/stats.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.testmeas
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/toolbox/testmeas.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.timeseries
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/toolbox/timeseries.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.difflink.client
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/toolbox/difflink/client.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.difflink.server
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/toolbox/difflink/server.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.difflink.util
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/toolbox/difflink/util.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.fixedpoint.util
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/toolbox/fixedpoint/util.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.matlab.appdesigner
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/toolbox/matlab/appdesigner.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.matlab.guide
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/toolbox/matlab/guide.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.matlab.webwindow
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/toolbox/matlab/webwindow.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.parallel.mapreduce
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/toolbox/parallel/mapreduce.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.parallel.pctutil
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/toolbox/parallel/pctutil.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.parallel.util
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/toolbox/parallel/util.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.shared.computils
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/toolbox/shared/computils.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.shared.controllib
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/toolbox/shared/controllib.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.shared.mlconnector_bridge
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/toolbox/shared/mlconnector_bridge.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.shared.hwconnectinstaller.common
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/toolbox/shared/hwconnectinstaller/common.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.shared.hwconnectinstaller.settingwriter
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/toolbox/shared/hwconnectinstaller/settingwriter.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.shared.hwconnectinstaller.util
+      <version>9.1.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2016b/java/jar/toolbox/shared/hwconnectinstaller/util.jar</systemPath>
+    </dependency>
+  </dependencies>
+</project>

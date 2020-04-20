@@ -1,0 +1,1661 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>net.janklab.jump</groupId>
+  <artifactId>matlab-internal-jars-R2020a-win</artifactId>
+  <version>0.1.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <!--
+    This POM contains references to Matlab's internal Java libraries.
+  	DANGER! These are undocumented internal features! Using this stuff may
+  	well cause your code to break at any time!
+  -->
+
+  <name>Matlab-JUMP matlab-internal-jars: R2020a-win</name>
+  <description>Matlab internal JAR refs for Matlab R2020a on Windows</description>
+  <url>https://github.com/apjanke/matlab-jump</url>
+  <issueManagement>
+    <system>GitHub</system>
+    <url>https://github.com/apjanke/matlab-jump/issues</url>
+  </issueManagement>
+  <scm>
+    <url>https://github.com/apjanke/matlab-jump</url>
+  </scm>
+
+  <dependencies>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>activationclient
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/activationclient.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>addons
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/addons.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>addonsinstallerclient
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/addonsinstallerclient.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>addons_app
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/addons_app.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>addons_common
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/addons_common.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>addons_disabled_function_registration
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/addons_disabled_function_registration.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>addons_import_api
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/addons_import_api.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>addons_javapath_java
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/addons_javapath_java.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>addons_metadata
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/addons_metadata.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>addons_mlconnector
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/addons_mlconnector.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>addons_product
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/addons_product.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>addons_product_installer
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/addons_product_installer.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>addons_toolbox
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/addons_toolbox.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>addons_zip
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/addons_zip.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>addon_enable_disable_management
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/addon_enable_disable_management.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>addon_matlab_path_service_provider
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/addon_matlab_path_service_provider.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>addon_service_management_api
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/addon_service_management_api.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>addon_updates
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/addon_updates.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>addressbar_api
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/addressbar_api.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>appmanagement
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/appmanagement.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>beans
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/beans.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>capabilities
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/capabilities.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>cfbutils
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/cfbutils.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>common
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/common.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>comparisons
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/comparisons.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>crash_analyzer
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/crash_analyzer.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>currentfolderbrowser
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/currentfolderbrowser.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>ddux_api
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/ddux_api.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>deactivation
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/deactivation.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>deployment
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/deployment.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>desktop
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/desktop.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>dynamic_resource
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/dynamic_resource.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>engine
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/engine.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>explorer
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/explorer.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>explorer_api
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/explorer_api.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>explorer_resources
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/explorer_resources.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>explorer_widget
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/explorer_widget.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>fatalexit
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/fatalexit.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>filechooser
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/filechooser.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>filesystem_adapter
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/filesystem_adapter.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>fileutils
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/fileutils.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>findfiles
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/findfiles.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>findfiles_legacy_resources
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/findfiles_legacy_resources.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>find_files_api
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/find_files_api.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>foundation_libraries
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/foundation_libraries.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>grouptable
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/grouptable.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>hg
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/hg.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>html
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/html.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>hwsmanagement
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/hwsmanagement.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>ide
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/ide.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>install
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/install.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>installbundle
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/installbundle.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>installer_login
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/installer_login.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>installjscommon
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/installjscommon.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>installservicehandler
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/installservicehandler.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>installwizard
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/installwizard.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>install_core_common
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/install_core_common.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>install_impl
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/install_impl.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>install_task
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/install_task.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>instructionset
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/instructionset.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>instutil
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/instutil.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>instwiz
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/instwiz.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>jail_container
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/jail_container.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>jit_activation
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/jit_activation.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>jmi
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/jmi.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>jniutils_java
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/jniutils_java.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>license_agreement_dialog
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/license_agreement_dialog.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>login
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/login.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>matlab
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/matlab.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>matlabinstaller
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/matlabinstaller.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>matlab_login
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/matlab_login.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>mde
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/mde.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>metadata_core
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/metadata_core.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>metadata_serializer
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/metadata_serializer.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>mladdonpackaging
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/mladdonpackaging.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>mldosharing
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/mldosharing.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>mlservices
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/mlservices.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>mltbx_installer
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/mltbx_installer.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>mlwebservices
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/mlwebservices.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>mlwidgets
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/mlwidgets.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>mvm
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/mvm.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>mwswing
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/mwswing.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>mwt
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/mwt.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>net
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/net.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>notification_client_util
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/notification_client_util.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>online_license_management
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/online_license_management.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>page
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/page.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>pathdataservice
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/pathdataservice.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>pathtool
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/pathtool.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>path_api
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/path_api.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>product
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/product.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>publishparser
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/publishparser.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>registration_point_api
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/registration_point_api.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>resources_folder
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/resources_folder.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>resource_core
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/resource_core.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>searchservice
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/searchservice.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>services
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/services.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>sourcecontrol
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/sourcecontrol.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>supportsoftwareclient
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/supportsoftwareclient.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>supportsoftwareinstaller
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/supportsoftwareinstaller.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>supportsoftwarematlabmanagement
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/supportsoftwarematlabmanagement.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>timer
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/timer.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolboxmanagement
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/toolboxmanagement.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox_packaging
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/toolbox_packaging.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolstrip
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/toolstrip.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>trialsinstaller
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/trialsinstaller.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>update_installer
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/update_installer.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>update_installer_shutdown_client
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/update_installer_shutdown_client.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>update_notification_subscriber
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/update_notification_subscriber.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>usm
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/usm.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>util
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/util.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>vrd
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/vrd.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>webintegration
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/webintegration.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>webproxy
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/webproxy.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>widgets
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/widgets.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>wizard
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/wizard.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>xml
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/xml.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>cmlink.api
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/cmlink/api.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>cmlink.management
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/cmlink/management.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>cmlink.util
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/cmlink/util.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>cmlink.creation.api
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/cmlink/creation/api.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>cmlink.creation.registration
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/cmlink/creation/registration.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>cmlink.creation.ui
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/cmlink/creation/ui.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>cmlink.creation.implementations.file
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/cmlink/creation/implementations/file.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>cmlink.creation.implementations.github
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/cmlink/creation/implementations/github.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>cmlink.implementations.git
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/cmlink/implementations/git.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>cmlink.implementations.localcm
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/cmlink/implementations/localcm.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>cmlink.implementations.msscci
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/cmlink/implementations/msscci.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>cmlink.implementations.svncore
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/cmlink/implementations/svncore.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>cmlink.implementations.svnintegration
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/cmlink/implementations/svnintegration.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>cmlink.implementations.svnkitintegration
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/cmlink/implementations/svnkitintegration.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>connector_api.client_services_api
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/connector_api/client_services_api.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>connector_api.editor_api
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/connector_api/editor_api.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>connector_api.framework_api
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/connector_api/framework_api.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>connector_api.jni_cosg_api
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/connector_api/jni_cosg_api.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>connector_api.jni_json_api
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/connector_api/jni_json_api.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>connector_api.jni_message_service_api
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/connector_api/jni_message_service_api.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>connector_api.jni_native_bridge_api
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/connector_api/jni_native_bridge_api.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>connector_api.standalone_host_api
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/connector_api/standalone_host_api.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>connector_impl.client_services_impl
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/connector_impl/client_services_impl.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>connector_impl.connector-3popt
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/connector_impl/connector-3popt.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>connector_impl.connector-dev
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/connector_impl/connector-dev.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>connector_impl.connector_impl
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/connector_impl/connector_impl.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>connector_impl.framework_impl
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/connector_impl/framework_impl.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>connector_impl.jni_cosg_impl
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/connector_impl/jni_cosg_impl.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>connector_impl.jni_json_impl
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/connector_impl/jni_json_impl.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>connector_impl.jni_message_service_impl
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/connector_impl/jni_message_service_impl.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>connector_impl.jni_native_bridge_impl
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/connector_impl/jni_native_bridge_impl.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>connector_impl.standalone_host_impl
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/connector_impl/standalone_host_impl.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>connector_impl.worker_impl
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/connector_impl/worker_impl.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>currentfolder.model
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/currentfolder/model.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>datatools.variableeditor
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/datatools/variableeditor.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>filesystem.fileiconprovider
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/filesystem/fileiconprovider.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>help.helpui
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/help/helpui.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>install.core_services
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/install/core_services.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>install.downloader_jni
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/install/downloader_jni.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>org.netbeans
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/org/netbeans.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>org.openide
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/org/openide.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>project.api
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/project/api.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>project.impl
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/project/impl.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>resources.parallel_res
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/resources/parallel_res.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>resources.physmod_simscape_simscape_res
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/resources/physmod_simscape_simscape_res.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>settings.settings_service
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/settings/settings_service.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>storage.filesystemadapter
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/storage/filesystemadapter.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>storage.gds
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/storage/gds.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>storage.gdsmounter
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/storage/gdsmounter.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>storage.hadoopenvsparksubmit
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/storage/hadoopenvsparksubmit.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>storage.hdfs.2
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/storage/hdfs.2.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>storage.hdfsloader
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/storage/hdfsloader.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>storage.hdfsloaderthunk
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/storage/hdfsloaderthunk.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>storage.matlabdrivedesktop
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/storage/matlabdrivedesktop.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>storage.mldrivetripwireaccess
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/storage/mldrivetripwireaccess.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>storage.motw
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/storage/motw.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>storage.provider
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/storage/provider.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>system.editor
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/system/editor.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.apps
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/toolbox/apps.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.autolayout
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/toolbox/autolayout.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.cmlinkutils
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/toolbox/cmlinkutils.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.coder
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/toolbox/coder.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.comm
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/toolbox/comm.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.control
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/toolbox/control.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.curvefit
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/toolbox/curvefit.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.dastudio
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/toolbox/dastudio.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.database
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/toolbox/database.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.distcomp
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/toolbox/distcomp.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.geoweb
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/toolbox/geoweb.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.images
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/toolbox/images.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.instrument
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/toolbox/instrument.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.mpc
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/toolbox/mpc.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.nnet
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/toolbox/nnet.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.optim
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/toolbox/optim.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.rptgencore
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/toolbox/rptgencore.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.rptgenxmlcomp
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/toolbox/rptgenxmlcomp.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.slproject
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/toolbox/slproject.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.slprojectcomparison
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/toolbox/slprojectcomparison.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.slprojectdependency
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/toolbox/slprojectdependency.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.stateflow_desktop_integration
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/toolbox/stateflow_desktop_integration.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.stats
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/toolbox/stats.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.symbolic
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/toolbox/symbolic.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.testmeas
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/toolbox/testmeas.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.timeseries
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/toolbox/timeseries.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.vision
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/toolbox/vision.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.difflink.client
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/toolbox/difflink/client.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.difflink.server
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/toolbox/difflink/server.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.difflink.util
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/toolbox/difflink/util.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.fixedpoint.util
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/toolbox/fixedpoint/util.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.matlab.appdesigner
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/toolbox/matlab/appdesigner.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.matlab.cefclient_java
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/toolbox/matlab/cefclient_java.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.matlab.guide
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/toolbox/matlab/guide.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.matlab.jcefapp
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/toolbox/matlab/jcefapp.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.matlab.matlabwindowjava
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/toolbox/matlab/matlabwindowjava.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.matlab.webwindow
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/toolbox/matlab/webwindow.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.matlab.testframework.ui.toolstrip
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/toolbox/matlab/testframework/ui/toolstrip.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.parallel.admincenter
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/toolbox/parallel/admincenter.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.parallel.mapreduce
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/toolbox/parallel/mapreduce.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.parallel.pctutil
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/toolbox/parallel/pctutil.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.parallel.util
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/toolbox/parallel/util.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.shared.bigdata
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/toolbox/shared/bigdata.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.shared.computils
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/toolbox/shared/computils.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.shared.controllib
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/toolbox/shared/controllib.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.shared.mlconnector_bridge
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/toolbox/shared/mlconnector_bridge.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.shared.mldatx
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/toolbox/shared/mldatx.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.shared.slsf_desktop_integration
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/toolbox/shared/slsf_desktop_integration.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.shared.hwconnectinstaller.common
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/toolbox/shared/hwconnectinstaller/common.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.shared.hwconnectinstaller.util
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/toolbox/shared/hwconnectinstaller/util.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.shared.spcuilib.unifiedscopes
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/toolbox/shared/spcuilib/unifiedscopes.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.shared.supportpkgservices.sprootsettingwriter
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/toolbox/shared/supportpkgservices/sprootsettingwriter.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.simulink.datadictionary
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/toolbox/simulink/datadictionary.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.simulink.desktopintegration
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/toolbox/simulink/desktopintegration.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.slprojectsharing.email
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/toolbox/slprojectsharing/email.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.slprojectsharing.github
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/toolbox/slprojectsharing/github.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.slprojectsharing.toolbox
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/toolbox/slprojectsharing/toolbox.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>net.janklab.jump.matlab-internal-jars</groupId>
+      <artifactId>toolbox.slprojectsharing.utils
+      <version>9.8.0</version>
+      <scope>system</scope>
+      <systemPath>C:/Program Files/MATLAB/R2020a/java/jar/toolbox/slprojectsharing/utils.jar</systemPath>
+    </dependency>
+  </dependencies>
+</project>

@@ -26,11 +26,28 @@ def maybe_makedirs(dir):
   if not os.path.exists(dir):
     os.makedirs(dir)
 
-def detect_matlab_version(matlab_root, os_tag):
-  matlab_exe = matlab_root + '/bin/matlab'
-  proc = subprocess.run([matlab_exe, '-nodesktop', '-nodisplay', '-r', 
-    "fprintf('%s', version); exit"], capture_output = True, text = True)
-  out = proc.stdout
+def is_windows():
+  return platform.system() == 'Windows'
+
+def tempdir():
+  if is_windows():
+    return os.getenv('TEMP')
+  else:
+    return os.getenv('TEMPDIR')
+
+def detect_matlab_version(matlab_exe, os_tag):
+  if is_windows():
+    temp_file = tempdir()+'/matlab_ver_out.txt'
+    if os.path.exists(temp_file):
+      os.remove(temp_file)
+    proc = subprocess.run([matlab_exe, '-nodesktop', '-nodisplay', '-nosplash', '-wait', '-log', '-r', 
+      f"diary('{temp_file}'); fprintf('%s\\n', version); exit"], capture_output = True, text = True)
+    with open(temp_file, 'r') as f:
+      out = f.read()
+  else:
+    proc = subprocess.run([matlab_exe, '-nodesktop', '-nodisplay', '-r', 
+      "fprintf('%s', version); exit"], capture_output = True, text = True)
+    out = proc.stdout
   lines = out.splitlines()
   last_line = lines[-1]
   ix_space = last_line.find(' ')
@@ -48,13 +65,16 @@ elif platform.system() == 'Darwin':
   os_tag = 'mac'
   os_name = 'macOS'
   matlab_root = "/Applications/MATLAB_"+matlab_release+".app"
+  matlab_exe = matlab_root+"/bin/matlab"
 elif platform.system() == 'Windows':
   os_tag = 'win'
   os_name = 'Windows'
+  matlab_root = "C:/Program Files/MATLAB/"+matlab_release
+  matlab_exe = matlab_root+"/bin/matlab.exe"
 else:
   raise Exception('Unrecognized platform value: ' + platform.system())
 
-matlab_version = detect_matlab_version(matlab_root, os_tag)
+matlab_version = detect_matlab_version(matlab_exe, os_tag)
 print(f'Detected Matlab version: {matlab_version}')
 
 tag = matlab_release + '-' + os_tag
@@ -103,15 +123,15 @@ for root, subdirs, files in os.walk(matlab_jar_dir):
   if len(rel_dir) >= 5:
     first_five = rel_dir[:5]
     if first_five in skips:
-      #print('-> Skipping locale dir');
       continue
 
   for filename in files:
     if not filename.endswith(".jar"):
       continue
-    file_path = os.path.join(root, filename)
-    #print('\t- file %s (full path: %s)' % (filename, file_path))
-    qual = rel_dir.replace("/", ".")
+    file_path = root+"/"+filename
+    # Normalize to / for Maven's use
+    file_path = file_path.replace('\\', '/')
+    qual = rel_dir.replace("/", ".").replace('\\', '.')
     jar_base = filename[:-4]
     artifact = qual + "." + jar_base if qual else jar_base
     f.write('    <dependency>\n')

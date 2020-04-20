@@ -1,4 +1,4 @@
 {
-  "python.pythonPath": "/usr/local/opt/python/bin/python3.7",
+  "python.pythonPath": "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\Python36_64\\python.exe",
   "git.ignoreLimitWarning": true
 }
