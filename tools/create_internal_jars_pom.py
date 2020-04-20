@@ -60,7 +60,8 @@ def detect_matlab_version(matlab_exe, os_tag):
 if platform.system() == 'Linux':
   os_tag = 'linux'
   os_name = 'Linux'
-  raise Exception("Linux is not supported yet.")
+  matlab_root = '/usr/local/MATLAB/'+matlab_release
+  matlab_exe = matlab_root+"/bin/matlab"
 elif platform.system() == 'Darwin':
   os_tag = 'mac'
   os_name = 'macOS'
