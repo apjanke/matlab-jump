@@ -7,6 +7,9 @@
   <version>0.1.0</version>
   <packaging>pom</packaging>
 
+  <name>Matlab-JUMP R2019b</name>
+  <description>References for jarext dependencies for Matlab R2019b</description>
+  <url>https://github.com/apjanke/matlab-jump</url>
   <issueManagement>
     <system>GitHub</system>
     <url>https://github.com/apjanke/matlab-jump</url>
