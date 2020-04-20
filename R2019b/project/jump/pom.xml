@@ -35,20 +35,6 @@
     <url>https://github.com/apjanke/matlab-jump</url>
   </scm>
 
-  <!-- We need the snapshot repo to pick up Janklab-OPP's snapshots. -->
-  <repositories>
-    <repository>
-      <id>oss.sonatype.org-snapshot</id>
-      <url>http://oss.sonatype.org/content/repositories/snapshots</url>
-      <releases>
-        <enabled>false</enabled>
-      </releases>
-      <snapshots>
-        <enabled>true</enabled>
-      </snapshots>
-    </repository>
-  </repositories>
-
   <!-- 
       This POM contains Java libraries matching Matlab R2019b. Earlier versions
       of Matlab use _almost_ the same versions of those libraries, too; this will
@@ -61,12 +47,12 @@
     <dependency>
       <groupId>net.janklab.opp</groupId>
       <artifactId>glazedlists</artifactId>
-      <version>1.7.0-SNAPSHOT</version>
+      <version>1.7.0</version>
     </dependency>
     <dependency>
       <groupId>net.janklab.opp</groupId>
       <artifactId>jide-oss</artifactId>
-      <version>3.7.4-SNAPSHOT</version>
+      <version>3.7.4</version>
     </dependency>
 
     <!-- Regular published libraries -->
