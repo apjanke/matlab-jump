@@ -23,6 +23,25 @@ JUMP also distributes a tarball that combines the Javadocs for all of those thir
 
 Matlab ships old versions of the Java libraries it uses. Some of these have security vulnerabilities in them. You may see security warnings on this repo or in your development tools when using these libraries. Nothing I can do about that, since the versions Matlab ships are fixed.
 
+## Usage
+
+To use Matlab-JUMP, include it as a dependency in your Maven project's POM. That will pull in all the libraries shipped with Matlab. In your `pom.xml`:
+
+```xml
+    <dependency>
+      <groupId>net.janklab.jump</groupId>
+      <artifactId>jump-R2019b</artifactId>
+      <version>0.1.0</version>
+      <type>pom</type>
+    </dependency>
+```
+
+Make sure to include that `<type>pom</type>` or `mvn` will get cranky!
+
+### Usage for non-Maven users
+
+TODO: Fill me in with something useful!
+
 ## Matlab Version Support
 
 JUMP currently supports Matlab R2019b.
